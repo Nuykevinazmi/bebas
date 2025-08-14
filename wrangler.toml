@@ -1,0 +1,12 @@
+name = "bebas"
+main = "worker.js"
+compatibility_date = "2025-08-12"
+
+# Aktifkan Cloudflare KV
+kv_namespaces = [
+  { binding = "VALID_ACCOUNTS", id = "66403b5781584e0bb879f758fe77e8ff" }
+]
+
+[vars]
+# Kalau ada variable seperti API_KEY atau CAPTCHA_ID bisa ditaruh di sini
+# CAPTCHA_ID = "fef5c67c39074e9d845f4bf579cc07af"
