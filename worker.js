@@ -1,4 +1,4 @@
-const ALLOWED_ORIGIN = "https://3b730534.umum-zid.pages.dev";
+const ALLOWED_ORIGIN = "https://61e8d282.umum-zid.pages.dev";
 
 addEventListener("fetch", event => {
   event.respondWith(handleRequest(event.request));
